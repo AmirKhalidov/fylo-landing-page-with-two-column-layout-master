@@ -3,6 +3,9 @@ module.exports = {
     content: ['./src/**/*.{html,js}'],
     theme: {
         extend: {
+            width: {
+                'fit-content-200': 'fit-content(177.58px)',
+            },
             colors: {
                 primary: {
                     darkBlue: 'hsl(243, 87%, 12%)',
